@@ -14,11 +14,22 @@ export default function Registration(){
           <input type="text"></input>
         </label>
         <label>
-          Age Range
+          Age Range (Select one that applies)
+          <input type="text"></input>
+        </label>
+        <label>
+          Office/Position held in the choir
+          <input type="text"></input>
+        </label>
+        <label>
+          Your ministry within the choir (Check)
+          <input type="text"></input>
+        </label>
+        <label>
+          Do you have prior music literacy?
           <input type="text"></input>
         </label>
       </form>
-
     </div>
-  )
+  );
 }
