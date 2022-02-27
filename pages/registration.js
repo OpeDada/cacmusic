@@ -54,7 +54,27 @@ export default function Registration(){
           <input type="text"></input>
         </label>
         <label>
-          Name of Assembly Pastor
+          Phone number of Assembly Pastor
+          <input type="text"></input>
+        </label>
+        <label>
+          Name of Church Choir Master
+          <input type="text"></input>
+        </label>
+        <label>
+          Phone number of Church Choir Master
+          <input type="text"></input>
+        </label>
+        <label>
+          Church Name
+          <input type="text"></input>
+        </label>
+        <label>
+          What Instrument(s) do you play?
+          <input type="text"></input>
+        </label>
+        <label>
+          Which of these workshops will you like to attend?
           <input type="text"></input>
         </label>
       </form>
