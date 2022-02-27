@@ -6,7 +6,15 @@ export default function Registration(){
     <div className="styles.container">
       <form>
         <label>
-          Full Name:
+          Full Name
+          <input type="text"></input>
+        </label>
+        <label>
+          Gender
+          <input type="text"></input>
+        </label>
+        <label>
+          Age Range
           <input type="text"></input>
         </label>
       </form>
