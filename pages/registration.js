@@ -29,6 +29,18 @@ export default function Registration(){
           Do you have prior music literacy?
           <input type="text"></input>
         </label>
+        <label>
+          What is your level of Music literacy?
+          <input type="text"></input>
+        </label>
+        <label>
+          Denomination
+          <input type="text"></input>
+        </label>
+        <label>
+          Region (Select one that applies)
+          <input type="text"></input>
+        </label>
       </form>
     </div>
   );
