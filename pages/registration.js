@@ -41,6 +41,22 @@ export default function Registration(){
           Region (Select one that applies)
           <input type="text"></input>
         </label>
+        <label>
+          DCC/Zone (if not a CAC member, type Non-CAC)
+          <input type="text"></input>
+        </label>
+        <label>
+          District (if not a CAC member, type Non-CAC)
+          <input type="text"></input>
+        </label>
+        <label>
+          Name of Assembly Pastor
+          <input type="text"></input>
+        </label>
+        <label>
+          Name of Assembly Pastor
+          <input type="text"></input>
+        </label>
       </form>
     </div>
   );
