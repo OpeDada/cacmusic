@@ -77,6 +77,15 @@ export default function Registration(){
           Which of these workshops will you like to attend?
           <input type="text"></input>
         </label>
+        <label>
+          What part do you sing?
+          <input type="text"></input>
+        </label>
+        <label>
+          T-shirt size (Select one that applies)
+          <input type="text"></input>
+        </label>
+        <button type="submit">Submit</button>
       </form>
     </div>
   );
