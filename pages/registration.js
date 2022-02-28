@@ -1,7 +1,7 @@
-import React from "react"
-import styles from '../styles/Registration.module.css'
+import React from "react";
+import styles from "../styles/Registration.module.css";
 
-export default function Registration(){
+export default function Registration() {
   return (
     <div className="styles.container">
       <form>
@@ -43,13 +43,54 @@ export default function Registration(){
           Office/Position held in the choir
           <input type="text"></input>
         </label>
+        <br />
         <label>
           Your ministry within the choir (Check)
-          <input type="text"></input>
+          <input
+            type="radio"
+            name="gender"
+            value="male"
+            // checked={props.data.gender === "male"}
+            // onChange={props.handleChange}
+          />{" "}
+          Worship Leader/Back up
+          <input
+            type="radio"
+            name="gender"
+            value="male"
+            // checked={props.data.gender === "male"}
+            // onChange={props.handleChange}
+          />{" "}
+          Musician
+          <input
+            type="radio"
+            name="gender"
+            value="male"
+            // checked={props.data.gender === "male"}
+            // onChange={props.handleChange}
+          />{" "}
+          Choir trainer
+          <input
+            type="radio"
+            name="gender"
+            value="male"
+            // checked={props.data.gender === "male"}
+            // onChange={props.handleChange}
+          />{" "}
+          Others
         </label>
+        <br />
         <label>
           Do you have prior music literacy?
           <input type="text"></input>
+          <input
+            type="radio"
+            name="gender"
+            value="male"
+            // checked={props.data.gender === "male"}
+            // onChange={props.handleChange}
+          />{" "}
+          Others
         </label>
         <label>
           What is your level of Music literacy?
