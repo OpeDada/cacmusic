@@ -11,7 +11,16 @@ export default function Registration(){
         </label>
         <label>
           Gender
-          <input type="text"></input>
+          <select
+            // value={props.data.favColor}
+            // onChange={props.handleChange}
+            // name="favColor"
+            // style={{ margin: "20px" }}
+          >
+            <option value="">Select your gender</option>
+            <option value="Blue">Male</option>
+            <option value="Green">Female</option>
+          </select>
         </label>
         <label>
           Age Range (Select one that applies)
