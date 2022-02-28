@@ -12,19 +12,32 @@ export default function Registration(){
         <label>
           Gender
           <select
-            // value={props.data.favColor}
-            // onChange={props.handleChange}
-            // name="favColor"
-            // style={{ margin: "20px" }}
+          // value={props.data.favColor}
+          // onChange={props.handleChange}
+          // name="favColor"
+          // style={{ margin: "20px" }}
           >
             <option value="">Select your gender</option>
-            <option value="Blue">Male</option>
-            <option value="Green">Female</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
           </select>
         </label>
         <label>
           Age Range (Select one that applies)
-          <input type="text"></input>
+          <select
+          // value={props.data.favColor}
+          // onChange={props.handleChange}
+          // name="favColor"
+          // style={{ margin: "20px" }}
+          >
+            <option value="">Select your age range</option>
+            <option value="Below 12">Below 12</option>
+            <option value="13 to 19">13 to 19</option>
+            <option value="20 to 39">20 to 39</option>
+            <option value="40 to 49">40 to 49</option>
+            <option value="50 to 65">50 to 65</option>
+            <option value="Above 65">Above 65</option>
+          </select>
         </label>
         <label>
           Office/Position held in the choir
