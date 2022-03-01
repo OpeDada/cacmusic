@@ -3,7 +3,7 @@ import styles from "../styles/Registration.module.css";
 
 export default function Registration() {
   return (
-    <div className="styles.container">
+    <mainbust className="styles.container">
       <form>
         <label>
           Full Name
@@ -82,15 +82,22 @@ export default function Registration() {
         <br />
         <label>
           Do you have prior music literacy?
-          <input type="text"></input>
           <input
             type="radio"
             name="gender"
-            value="male"
+            value="yes"
             // checked={props.data.gender === "male"}
             // onChange={props.handleChange}
           />{" "}
-          Others
+          Yes
+          <input
+            type="radio"
+            name="gender"
+            value="No"
+            // checked={props.data.gender === "male"}
+            // onChange={props.handleChange}
+          />{" "}
+          No
         </label>
         <label>
           What is your level of Music literacy?
@@ -150,6 +157,6 @@ export default function Registration() {
         </label>
         <button type="submit">Submit</button>
       </form>
-    </div>
+    </mainbust>
   );
 }
