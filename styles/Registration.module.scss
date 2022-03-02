@@ -1,0 +1,23 @@
+.main-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+}
+
+.container{
+  border: 1px solid #e1dede;
+  padding: 36px;
+  background: #EDE1E2;
+}
+
+input[type="text"] {
+  width: 90%;
+  padding: 0.5rem;
+  /* margin: 16px 0; */
+  margin-bottom: 16px;
+}
+
+input[type="radio"] {
+  margin-bottom: 1rem;
+}

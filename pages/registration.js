@@ -1,9 +1,9 @@
 import React from "react";
-import styles from "../styles/Registration.module.css";
+import styles from "../styles/Registration.module.scss";
 
 export default function Registration() {
   return (
-    <mainbust className="styles.container">
+    <main className={styles.container}>
       <form>
         <label>
           Full Name
@@ -157,6 +157,6 @@ export default function Registration() {
         </label>
         <button type="submit">Submit</button>
       </form>
-    </mainbust>
-  );
+    </main>
+  )
 }
