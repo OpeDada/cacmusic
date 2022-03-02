@@ -1,13 +1,13 @@
 // import Head from 'next/head'
 // import Image from 'next/image'
-import styles from '../styles/Home.module.scss'
+// import styles from '../styles/home.scss'
 
 import React from "react"
 import Registration from "./registration"
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className="container">
       <Registration />
 
     </div>

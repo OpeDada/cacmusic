@@ -1,13 +1,13 @@
 import React from "react";
-import styles from "../styles/Registration.module.scss";
+// import styles from "../styles/registration.scss";
 
 export default function Registration() {
   return (
-    <main className={styles.container}>
+    <main className="container">
       <form>
         <label>
           Full Name
-          <input type="text"></input>
+          <input required type="text"></input>
         </label>
         <label>
           Gender
@@ -158,5 +158,5 @@ export default function Registration() {
         <button type="submit">Submit</button>
       </form>
     </main>
-  )
+  );
 }
