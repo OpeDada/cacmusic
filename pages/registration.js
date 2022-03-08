@@ -3,14 +3,12 @@ import React from "react";
 
 export default function Registration() {
   return (
-    <main className="container">
+    <main className="main-form container">
       <form>
-        <label>
-          Full Name
-          <input required type="text"></input>
-        </label>
-        <label>
-          Gender
+        <div>
+          <label>Full name:</label>
+          <input type="text" name="full_name" required />
+          <label>Gender</label>
           <select
           // value={props.data.favColor}
           // onChange={props.handleChange}
@@ -21,9 +19,7 @@ export default function Registration() {
             <option value="Male">Male</option>
             <option value="Female">Female</option>
           </select>
-        </label>
-        <label>
-          Age Range (Select one that applies)
+          <label>Age Range (Select one that applies)</label>
           <select
           // value={props.data.favColor}
           // onChange={props.handleChange}
@@ -38,14 +34,9 @@ export default function Registration() {
             <option value="50 to 65">50 to 65</option>
             <option value="Above 65">Above 65</option>
           </select>
-        </label>
-        <label>
-          Office/Position held in the choir
+          <label>Office/Position held in the choir</label>
           <input type="text"></input>
-        </label>
-        <br />
-        <label>
-          Your ministry within the choir (Check)
+          <label>Your ministry within the choir (Check)</label>
           <input
             type="radio"
             name="gender"
@@ -78,10 +69,7 @@ export default function Registration() {
             // onChange={props.handleChange}
           />{" "}
           Others
-        </label>
-        <br />
-        <label>
-          Do you have prior music literacy?
+          <label>Do you have prior music literacy?</label>
           <input
             type="radio"
             name="gender"
@@ -98,64 +86,140 @@ export default function Registration() {
             // onChange={props.handleChange}
           />{" "}
           No
-        </label>
-        <label>
-          What is your level of Music literacy?
+          <label>What is your level of Music literacy?</label>
           <input type="text"></input>
-        </label>
-        <label>
-          Denomination
+          <label>Denomination</label>
           <input type="text"></input>
-        </label>
-        <label>
-          Region (Select one that applies)
+          <label>Region (Select one that applies)</label>
           <input type="text"></input>
-        </label>
-        <label>
-          DCC/Zone (if not a CAC member, type Non-CAC)
+          <label>DCC/Zone (if not a CAC member, type Non-CAC)</label>
           <input type="text"></input>
-        </label>
-        <label>
-          District (if not a CAC member, type Non-CAC)
+          <label>District (if not a CAC member, type Non-CAC)</label>
           <input type="text"></input>
-        </label>
-        <label>
-          Name of Assembly Pastor
+          <label>Name of Assembly Pastor</label>
           <input type="text"></input>
-        </label>
-        <label>
-          Phone number of Assembly Pastor
+          <label>Phone number of Assembly Pastor</label>
           <input type="text"></input>
-        </label>
-        <label>
-          Name of Church Choir Master
+          <label>Name of Church Choir Master</label>
           <input type="text"></input>
-        </label>
-        <label>
-          Phone number of Church Choir Master
+          <label>Phone number of Church Choir Master</label>
           <input type="text"></input>
-        </label>
-        <label>
-          Church Name
+          <label>Church Name</label>
           <input type="text"></input>
-        </label>
-        <label>
-          What Instrument(s) do you play?
-          <input type="text"></input>
-        </label>
-        <label>
-          Which of these workshops will you like to attend?
-          <input type="text"></input>
-        </label>
-        <label>
-          What part do you sing?
-          <input type="text"></input>
-        </label>
-        <label>
-          T-shirt size (Select one that applies)
-          <input type="text"></input>
-        </label>
-        <button type="submit">Submit</button>
+          <label>What Instrument(s) do you play?</label>
+          <textarea
+            // value={"default value"}
+            // onChange={props.handleChange}
+            style={{ width: "95%", height: "100px" }}
+          />
+          <label>Which of these workshops will you like to attend?</label>
+          <input
+            type="radio"
+            name="gender"
+            value="male"
+            // checked={props.data.gender === "male"}
+            // onChange={props.handleChange}
+          />{" "}
+          Strings
+          <input
+            type="radio"
+            name="gender"
+            value="male"
+            // checked={props.data.gender === "male"}
+            // onChange={props.handleChange}
+          />{" "}
+          Percussions
+          <input
+            type="radio"
+            name="gender"
+            value="male"
+            // checked={props.data.gender === "male"}
+            // onChange={props.handleChange}
+          />{" "}
+          Keyboards/Organ
+          <input
+            type="radio"
+            name="gender"
+            value="male"
+            // checked={props.data.gender === "male"}
+            // onChange={props.handleChange}
+          />{" "}
+          Woodwinds
+          <input
+            type="radio"
+            name="gender"
+            value="male"
+            // checked={props.data.gender === "male"}
+            // onChange={props.handleChange}
+          />{" "}
+          Brass
+          <input
+            type="radio"
+            name="gender"
+            value="male"
+            // checked={props.data.gender === "male"}
+            // onChange={props.handleChange}
+          />{" "}
+          Vocal Coaching
+          <input
+            type="radio"
+            name="gender"
+            value="male"
+            // checked={props.data.gender === "male"}
+            // onChange={props.handleChange}
+          />{" "}
+          Conducting
+          <label>What part do you sing?</label>
+          <input
+            type="radio"
+            name="gender"
+            value="male"
+            // checked={props.data.gender === "male"}
+            // onChange={props.handleChange}
+          />{" "}
+          Soprano
+          <input
+            type="radio"
+            name="gender"
+            value="male"
+            // checked={props.data.gender === "male"}
+            // onChange={props.handleChange}
+          />{" "}
+          Alto
+          <input
+            type="radio"
+            name="gender"
+            value="male"
+            // checked={props.data.gender === "male"}
+            // onChange={props.handleChange}
+          />{" "}
+          Tenor
+          <input
+            type="radio"
+            name="gender"
+            value="male"
+            // checked={props.data.gender === "male"}
+            // onChange={props.handleChange}
+          />{" "}
+          Bass
+          <label>T-shirt size (Select one that applies)</label>
+          <select
+          // value={props.data.favColor}
+          // onChange={props.handleChange}
+          // name="favColor"
+          // style={{ margin: "20px" }}
+          >
+            <option value=""> Select the right t-shirt </option>
+            <option value="Blue">Child</option>
+            <option value="Green">Small</option>
+            <option value="Red">Medium</option>
+            <option value="Orange">Large</option>
+            <option value="Yellow">XL</option>
+            <option value="Yellow">XXL</option>
+          </select>
+          <br />
+          <button type="submit">Submit</button>
+        </div>
       </form>
     </main>
   );
