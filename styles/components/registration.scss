@@ -5,16 +5,16 @@
 
 
 // .main-form {
-//     min-width: 100%;
-//     height: 100vh;
-//     margin: 0vw;
-//     padding: 5vw ;
-//     position:relative;
-//     position:relative for .prevBtn and .nextBtn position:absolute;
-// }
+  // min-width: 100%;
+  //     height: 100vh;
+  //     margin: 0vw;
+  //     padding: 5vw ;
+  //     position:relative;
+  //     position:relative for .prevBtn and .nextBtn position:absolute;
+  // }
 
-.main-form {
-  padding: 20px;
+  .main-form {
+  padding: 40px 20px;
 }
 
 .main-form label{
@@ -25,7 +25,7 @@
 }
 
 input[type="text"] {
-  width: 50%;
+  width: 100%;
   padding: 0.5rem;
   margin: 16px 0;
 }
