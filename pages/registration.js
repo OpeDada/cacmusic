@@ -108,7 +108,7 @@ export default function Registration() {
           <input type="text"></input>
           <label>What Instrument(s) do you play?</label>
           <textarea
-            // value={"default value"}
+            // value={"default value"}==
             // onChange={props.handleChange}
             style={{ width: "95%", height: "100px" }}
           />
