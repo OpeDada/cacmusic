@@ -110,7 +110,7 @@ export default function Registration() {
           <textarea
             // value={"default value"}==
             // onChange={props.handleChange}
-            style={{ width: "95%", height: "100px" }}
+            style={{ height: "100px" }}
           />
           <label>Which of these workshops will you like to attend?</label>
           <input
